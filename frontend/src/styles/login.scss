@@ -1,0 +1,126 @@
+.google {
+  display: flex;
+  align-items: center;
+  border: 1px solid #889397;
+  border-radius: 6px;
+  gap: 10px;
+  justify-content: center;
+  color: #5c6c75;
+}
+
+.orWith {
+  text-align: center;
+  color: #5c6c75;
+}
+
+.titleNow {
+  color: #5c6bc0;
+}
+
+.title {
+  text-align: center;
+  color: #000000;
+
+  margin-top: 10px;
+}
+
+.h3title {
+  text-align: start;
+  margin-left: 20px;
+  color: #5c6bc0;
+  margin-top: 10px;
+}
+
+.login {
+  background-color: #5c6bc0;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+
+  width: 46%;
+  margin: 20px 0px 80px 90px;
+}
+
+.register {
+  text-align: center;
+  border: 1px solid #5c6bc0;
+  background-color: #fff;
+  font-size: 15;
+  border-radius: 10px;
+  padding: 10px;
+  width: 46%;
+  margin-left: 10px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logInInput {
+  width: 96%;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #5c6bc0;
+  border-radius: 5px;
+}
+
+.forgetPassword {
+  display: flex;
+  margin-top: 15px;
+  border-bottom: solid 1px #5c6bc0;
+  color: #5c6bc0;
+  width: fit-content;
+  margin-left: 200px;
+}
+
+.solid {
+  position: absolute;
+  color: #ffffff;
+  border-bottom: solid 1px #5c6bc0;
+  width: 76%;
+  top: 70%;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logInInput {
+  width: 96%;
+  padding: 8px;
+  margin: 5px;
+  background-color: #f2f2f7;
+  border: none;
+  border-radius: 5px;
+}
+
+.forgetPassword {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: #fffafa;
+  z-index: 99;
+}
+
+.solid {
+  position: absolute;
+  color: #ffffff;
+  border-bottom: solid 1px #00000032;
+  width: 76%;
+  top: 455px;
+}
+
+//Added on branch 188
+.login-register-link {
+  color: $primary-color;
+  &:hover {
+    color: $primary-hover-color;
+    border-bottom: 1px solid $primary-hover-color;
+  }
+}

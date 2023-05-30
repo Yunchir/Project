@@ -1,0 +1,36 @@
+@import "variables";
+
+.jobcard {
+  color: $secondary-color;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 6px;
+
+  &-image {
+    background-color: $primary-color;
+    color: $white-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-date {
+    color: #b7b7c3;
+    font-size: 14px;
+  }
+  &-title {
+    font-weight: 600;
+  }
+  &-description {
+    font-weight: 300;
+    position: relative;
+  }
+  &-wage {
+    font-size: 14px;
+    font-weight: 200;
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,25 @@
+.appliedjobs {
+  &-jobcard {
+    border-left: 3px solid #fff;
+    &:hover {
+      border-left: 3px solid $primary-color;
+    }
+  }
+  &-jobstate {
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  &-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    &:hover {
+      border-radius: 10px;
+      color: $red-color;
+    }
+  }
+}

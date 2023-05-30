@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "variables";
+@import "./header.scss";
+@import "./footer.scss";
+@import "./main.scss";
+@import "./jobcard.scss";
+@import "./addjob.scss";
+@import "./applied.scss";
+@import "./login.scss";
+@import "./register.scss";
+@import "./successmodal.scss";
+@import "./singlejob.scss";
+@import "./filter.scss";
+@import "./posted.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-style {
+  height: 32px;
+  padding: 6px;
+  background-color: $primary-color;
+  color: #fff;
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+}
+
+.center-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,48 @@
+@import "variables";
+
+.home {
+  color: $secondary-color;
+
+  &-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: $primary-color;
+  }
+  &-filter {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+  }
+  &-joblist {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  &-filter-btn {
+    border: 1px solid #dcdcdc;
+    border-radius: 0 10px 10px 0;
+    background-color: #fff;
+  }
+}
+
+.searchbar {
+  border-radius: 8px;
+  display: flex;
+  input {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding-left: 10px;
+  }
+  button {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    color: $white-color;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  .searchbar input {
+    border-radius: 8px 0 0 8px;
+  }
+}

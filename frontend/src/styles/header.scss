@@ -1,0 +1,45 @@
+@import "variables";
+
+.header {
+  background-color: #fff;
+  padding: 0 20px;
+  color: $primary-color;
+  &-logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &-login-btn {
+    font-size: medium;
+    font-weight: 600;
+  }
+  &-user-img {
+    border: 1px solid $white-color;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    background-color: $grey-color;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      object-fit: cover;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.sidebar-options {
+  height: 30px;
+  padding-left: 10px;
+  border-bottom: 1px solid $primary-color;
+  color: $secondary-color;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sidebar-options:hover {
+  border-bottom: 1px solid $secondary-color;
+}
